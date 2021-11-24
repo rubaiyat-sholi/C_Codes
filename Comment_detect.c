@@ -4,7 +4,7 @@
 int main()
 {
     char str[1000];
-    printf("Enter string: ");
+    printf("Input string: ");
     gets(str);
     int flag=0;
     for(int i=0; i<strlen(str); i++)
